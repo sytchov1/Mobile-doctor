@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingTop="12dp"
+    android:paddingBottom="12dp"
+    android:paddingStart="8dp"
+    android:paddingEnd="8dp"
+    android:weightSum="11">
+
+    <TextView
+        android:id="@+id/resultDisease_text_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="9"
+        android:textSize="20sp"
+        android:paddingStart="4dp"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/resultPercent_text_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:paddingEnd="2dp"
+        />
+</LinearLayout>
